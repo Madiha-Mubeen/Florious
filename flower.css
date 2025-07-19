@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ body {
+    font-family: ephesis, cursive;
+    background-image: url('photo/bg-florious.png');
+    text-shadow: 12px #defd63;
+    text-align: center;
+    font-size: 15px;
+    background-color: rgb(251, 205, 255);
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+ }
+ html, body {
+    height: 100%;
+    margin: 0;
+
+ }
+ header {
+    background-color: transparent;
+    padding: 20px 0;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    gap: 19px;
+    margin-bottom: 30px;
+ }
+
+ header h1 {
+    color: #a95555;
+    text-shadow:2px 2px #defd63;
+    margin-bottom: 12px;
+    font-size: 50px;
+ }
+
+ header img {
+    width: 60px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 10px;
+ }
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+ }
+
+ nav a {
+    color: rgb(143, 66, 66);
+    background-color: transparent;
+    padding: 10px 10px;
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: right;
+ }
+
+nav:hover {
+    color: #d63384;
+    text-shadow: 0 0 8px rgba(255, 105, 180, 0.5);
+    transform: scale(1.05);
+    cursor: grab;
+    transition: all 0.3s ease-in-out;
+}
+
+header h1:hover {
+    color: #d63384;
+    text-shadow: 0 0 8px rgba(255, 105, 180, 0.5);
+    transform: scale(1.05);
+    cursor: grab;
+    transition: all 0.3s ease-in-out;
+}
+.header  {
+    color: rgb(143, 66, 66);
+    background-color: transparent;
+    padding: 10px 10px;
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: right;
+ }
+
+ main {
+    flex: 1;
+ }
+
+ p {
+    font-size: 40px;
+    color:rgb(166, 75, 75);
+    text-shadow: #e681a3;
+ }
+
+ a {
+    font-size: 30px;
+    color:rgb(33, 56, 13)
+ }
+
+footer {
+    background: rgb(255, 167, 181);
+    background-image: url('photo/2footer.png');
+     margin-top: auto;
+}
+
+footer p {
+    color:rgba(104, 15, 15, 0.938);
+    font-size: 40px;
+    text-shadow:#defd63;
+    text-decoration-thickness: bold;
+}
+
+@media (max-width: 600px) {
+    .flower-card {
+        width: 100%;
+    }
+}
+
+.button {
+ 
+    background-color: #a74b4b;
+    padding: 10px 24px;
+    background-color: #defd63;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    color: #74753d;
+    font-size: 16px;
+    font-family: enphesis, cursive;
+    cursor: all-scroll;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(236, 236, 86);
+    transform: scale(1.05);
+}
